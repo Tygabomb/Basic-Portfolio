@@ -10,103 +10,57 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/CSS/style1.css">
-    
+    <link rel="stylesheet" type="text/css" href="assets/CSS/Responsive.css">
 
 </head>
 
 <body>
-
-    <header>
-
-        <div id="headerContents">
-
-            <div id="nameBlock">
-                <div class="headerName">Brandon harrell</div>
-            </div>
-
-            <div id="menuItems">
-                <a href="index.html" class="menuLinks">
-                    About
-                </a>
-
-                <span>|</span>
-
-                <a href="contact.html" class="menuLinks">
-                    Portfolio
-                </a>
-
-                <span>|</span>
-
-                <a href="portfolio.html" class="menuLinks">
-                    Contact
-                </a>
-            </div>
-
+    <header id="masthead">
+        <div class="container">
+          <a href="index.html" id="logo">Brandon Harrell</a>
+          <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </nav>
         </div>
+      </header>
 
-    </header>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
 
-    <hr>
+            <div class="work">
+                <img src="assets/images/cayde-6 emoji.jpg" alt="DBZ">
 
-    <div id="content">
-
-        <div id="article">
-
-                <h2>Portfolio</h2>
-
-                <hr>
-
-                <ul>
-                    <li>
-                        <a href="#"><img src="../Basic-Portfolio/assets/images/ubb dbz.jpg" height="200px" />
-                            <div class="img-screen">Ubb DBZ</div>
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="#"><img src="../Basic-Portfolio/assets/images/traktor setup.jpg" height="110px" />
-                            <div class="img-screen">Destiny 2</div>
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="#"><img src="../Basic-Portfolio/assets/images/flatland bmx.jpg" height="110px" />
-                            <div class="img-screen">BMX Flatlant</div>
-                        </a>
-
-                        <li>
-                            <a href="#"><img src="../Basic-Portfolio/assets/images/cayde 6 fire.jpg" height="110px" />
-                                <div class="img-screen">DJ Traktor MK4</div>
-                            </a>
-                        </li>
-
-                </ul>
-                </section>
+                <h3>Cayde-6</h3>
             </div>
-        </div>
-        <div id="connect">
-                <h1>Connect with Me</h1>
-    
-    
-                <hr>
-    
-                <a href="https://github.com/tygabomb" target="_blank"><img src="../Basic-Portfolio/assets/images/GitHub-Mark.png" height="40px" /></a>
-                <a href="https://www.linkedin.com/in/brandon-harrell-17b13265//" target="_blank"><img src="../Basic-Portfolio/assets/images/linkedin image.png"
-                        height="41px" /></a>
-                <a href="https://stackoverflow.com/users/10246717/tygabomb" target="_blank"><img src="../Basic-Portfolio/assets/images/stackover flow.png_r=403"
-                        height="40px" /></a>
+            <div class="work">
+                <img src="assets/images/cayde-6 emoji.jpg" alt="BMX Flatland">
+
+                <h3>Flatland</h3>
             </div>
-    
-        </div>
-    
-    
-        <footer class="sticky" id="footerContents">
-            Copyright Tygabomb &copy;
-            <footer>
-                </div>
-    
-    </body>
-    
-    </html>
+            <div class="work">
+                <img src="assets/images/traktor setup.jpg" alt="DJ Traktor">
+
+                <h3>Traktor</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/ubb dbz.jpg" alt="Rock Paper Scissors">
+
+                <h3>UBB</h3>
+            </div>
+
+        </section>
+
+    </div>
+
+    <footer class="sticky" id="footer">
+        Copyright Tygabomb &copy;
+    <footer>
+        
+
+</body>
+
+</html>
